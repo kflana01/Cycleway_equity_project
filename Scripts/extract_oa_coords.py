@@ -8,9 +8,10 @@ Borough_list = ("Barking and Dagenham", "Barnet", "Bexley", "Brent", "Bromley", 
                 "Tower Hamlets", "Waltham Forest", "Wandsworth", "Westminster")
 
 
-# parse the input file into an object tree
+
 for borough in Borough_list:
     print("borough", borough)
+# parse the input file into an object tree
     with open(kml_file_path) as f:
         tree = parser.parse(f)
 
