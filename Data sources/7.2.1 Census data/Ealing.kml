@@ -1,3 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?><kml xmlns="http://www.opengis.net/kml/2.2"><Document id="root_doc"><Schema xmlns="http://www.opengis.net/kml/2.2" name="Output_Areas__December_2021__Boundaries_EW_BFE__V9_" id="Output_Areas__December_2021__Boundaries_EW_BFE__V9_">
+  <SimpleField name="FID" type="int"/>
+  <SimpleField name="OA21CD" type="string"/>
+  <SimpleField name="LSOA21CD" type="string"/>
+  <SimpleField name="LSOA21NM" type="string"/>
+  <SimpleField name="LSOA21NMW" type="string"/>
+  <SimpleField name="BNG_E" type="int"/>
+  <SimpleField name="BNG_N" type="int"/>
+  <SimpleField name="LAT" type="float"/>
+  <SimpleField name="LONG" type="float"/>
+  <SimpleField name="Shape__Area" type="float"/>
+  <SimpleField name="Shape__Length" type="float"/>
+  <SimpleField name="GlobalID" type="string"/>
+</Schema>
 <Folder xmlns="http://www.opengis.net/kml/2.2">
   <name>Output_Areas__December_2021__Boundaries_EW_BFE__V9_</name>
   <Placemark>
@@ -33138,3 +33152,4 @@
     </Polygon>
   </Placemark>
 </Folder>
+</Document></kml>
